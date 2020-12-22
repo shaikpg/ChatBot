@@ -86,9 +86,10 @@ a {
 }
 
 .chat-messages {
-	padding: 30px;
-	max-height: 500px;
-	overflow-y: scroll;
+    padding: 30px;
+    max-height: 500px;
+    overflow-y: scroll;
+    height: 414px;
 }
 
 .chat-messages .message {
@@ -113,6 +114,7 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
+	position: sticky;
 }
 
 .chat-form-container form {
@@ -121,9 +123,11 @@ a {
 
 .chat-form-container input[type='text'] {
 	font-size: 16px;
-	padding: 5px;
-	height: 40px;
-	flex: 1;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+    border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Join Page */
@@ -160,10 +164,12 @@ a {
 }
 
 .join-main input[type='text'] {
-	font-size: 16px;
-	padding: 5px;
-	height: 40px;
-	width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+    border-radius: 48px;
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 .join-main select {
